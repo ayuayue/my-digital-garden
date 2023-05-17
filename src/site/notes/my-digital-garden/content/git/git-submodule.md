@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/content/git/git-submodule/","title":"Git Submodule"}
+{"dg-publish":true,"permalink":"/my-digital-garden/content/git/git-submodule/","title":"Git Submodule","noteIcon":"","created":"2023-05-07T16:54:12+08:00","updated":""}
 ---
 
 
@@ -26,7 +26,7 @@ git push
 
 ## 删除子模块
 
-git submodule deinit <submodule_path>
+git submodule deinit -f <submodule_path>
 git rm <submodule_path>
 git config -f .gitmodules --remove-section submodule.<submodule_path>
 git commit -m "Remove submodule <submodule_path>"
