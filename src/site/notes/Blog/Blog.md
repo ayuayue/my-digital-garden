@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Blog/","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/Blog/","tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
 ---
 
 # 我的数字花园！
