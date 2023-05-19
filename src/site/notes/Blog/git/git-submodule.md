@@ -1,13 +1,7 @@
 ---
-aliases: 
-tags: []
-categories: []
-lastmod: 2023-05-19T14:47:32+08:00
-title: "Git Submodule"
-date: 2023-05-07T16:54:12+08:00
-draft: false
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/git/git-submodule/","title":"Git Submodule","noteIcon":""}
 ---
+
 
 # Git 子模块
 
