@@ -32,3 +32,4 @@ git config -f .gitmodules --remove-section submodule.<submodule_path>
 git commit -m "Remove submodule <submodule_path>"
 rm -rf <submodule_path>
 
+[[Blog/git/GIT操作\|GIT操作]]
