@@ -18,10 +18,12 @@
 注意事项：
 1. 需要一个 github 仓库，开放私有均可。
 2. 需要一个 github 密钥，及最基础的一个 github 账号。
-3. 如果需要删除已发布的文章，在面板中找到 delete from vault 即可。
-4. 更改及上传后需要等待自动部署及发布，需要几分钟的时间。
+3. 需要有一个 vercel 账号，并把自己的 GitHub 仓库导进去，按照 [GitHub - oleeskild/obsidian-digital-garden](https://github.com/oleeskild/Obsidian-Digital-Garden) 的 vercel 部署说明来。
+4. 如果需要删除已发布的文章，在面板中找到 delete from vault 即可。
+5. 更改及上传后需要等待自动部署及发布，需要几分钟的时间。
 
 面板预览：
+
 ![../Attachment/Home-20230520122720828.png](/img/user/Attachment/Home-20230520122720828.png)
 
 
