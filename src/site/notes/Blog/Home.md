@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Home/","title":"Home","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/Home/","title":"Home","tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
 ---
 
 
@@ -21,6 +21,7 @@
 3. 需要有一个 vercel 账号，并把自己的 GitHub 仓库导进去，按照 [GitHub - oleeskild/obsidian-digital-garden](https://github.com/oleeskild/Obsidian-Digital-Garden) 的 vercel 部署说明来。
 4. 如果需要删除已发布的文章，在面板中找到 delete from vault 即可。
 5. 更改及上传后需要等待自动部署及发布，需要几分钟的时间。
+6. 目前不支持中文的搜索。
 
 面板预览：
 
