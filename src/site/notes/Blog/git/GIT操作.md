@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/git/GIT操作/","title":"GIT 操作","tags":["IT/Git"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/git/GIT操作/","title":"GIT 操作","tags":["IT/Git"],"noteIcon":"1"}
 ---
 
 # GIT 操作
