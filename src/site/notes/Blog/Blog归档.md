@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Blog归档/","noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/Blog归档/","noteIcon":"1"}
 ---
 
 
@@ -7,6 +7,7 @@
 
 | File                                                    | Date       | UpdateDate |
 | ------------------------------------------------------- | ---------- | ---------- |
+| [[Blog/软件使用/server-update\|server-update]]           | 2023-05-29 | 2023-05-29 |
 | [[Blog/软件使用/github-cli\|github-cli]]                 | 2023-05-28 | 2023-05-28 |
 | [[Blog/软件使用/vercel-cli\|vercel-cli]]                 | 2023-05-28 | 2023-05-28 |
 | [[Blog/软件使用/vercel-cf\|vercel-cf]]                   | 2023-05-27 | 2023-05-27 |
