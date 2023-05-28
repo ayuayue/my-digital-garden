@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/git/git-submodule/","title":"Git Submodule","noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/git/git-submodule/","title":"Git Submodule","noteIcon":"1"}
 ---
 
 
