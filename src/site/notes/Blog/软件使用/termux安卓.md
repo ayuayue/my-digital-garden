@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/termux安卓/","title":"termux安卓","tags":["IT/termux"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/软件使用/termux安卓/","title":"termux安卓","tags":["IT/termux"],"noteIcon":"1"}
 ---
 
 # termux安卓
