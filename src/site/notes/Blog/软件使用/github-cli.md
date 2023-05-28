@@ -19,3 +19,4 @@ win 使用 scoop install github-CLI 进行安装。
 4. 删除仓库：首先需要授权 gh auth refresh -h github.com -s delete_repo ，然后删除 gh repo delete ayuayue/xxx 。
 5. 重命名仓库：gh repo rename 
 6. 创建仓库：gh repo create 根据指引输入即可。
+7. 编辑仓库配置：gh repo edit 使用空格选中设置项，回车确认。
