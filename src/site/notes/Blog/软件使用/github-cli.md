@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/github-cli/","title":"Github-CLI使用","noteIcon":""}
+{"dg-publish":true,"permalink":"/Blog/软件使用/github-cli/","title":"Github-CLI使用","noteIcon":"1"}
 ---
 
 
