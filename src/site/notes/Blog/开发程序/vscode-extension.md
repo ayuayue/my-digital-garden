@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/vscode-extension/","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/开发程序/vscode-extension/","tags":["Blog/vscode"],"noteIcon":"1"}
 ---
 
 # 创建一个自己的 vscode 插件
