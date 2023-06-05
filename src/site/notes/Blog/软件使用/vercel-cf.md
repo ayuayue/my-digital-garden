@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cf/","title":"使用 vercel + cloudflare 管理域名","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cf/","title":"使用 vercel + cloudflare 管理域名","tags":["Blog/vercel"],"noteIcon":"1"}
 ---
 
 
