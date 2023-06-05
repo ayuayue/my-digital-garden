@@ -1,11 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Home/","title":"Home","tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/Home/","title":"Home","tags":["gardenEntry"],"noteIcon":"1"}
 ---
 
 
 # 我的博客🥰
 
 这是由 obsidian + digital garden 插件共同协作发布的一个静态博客页面。
+
+[[Blog归档 \| 博客归档]]
+
+[[Tags \| Tags]]
 
 主要功能：
 1. 直接发布单个的 md 文件到静态站点。
