@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/chatgpt_token_vercel/","title":"使用 vercel serverless 部署 chatgpt 认证接口","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/开发程序/chatgpt_token_vercel/","title":"使用 vercel serverless 部署 chatgpt 认证接口","tags":["Blog/vercel"],"noteIcon":"1"}
 ---
 
 
