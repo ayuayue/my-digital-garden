@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cli/","title":"Vercel-CLI 使用","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cli/","title":"Vercel-CLI 使用","tags":["Blog/vercel"],"noteIcon":"1"}
 ---
 
 
