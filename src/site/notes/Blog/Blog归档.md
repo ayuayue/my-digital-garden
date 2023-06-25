@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Blog归档/","title":"归档","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/Blog归档/","title":"归档","pinned":true,"noteIcon":"1"}
 ---
 
 
