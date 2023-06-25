@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Tags/","title":"Tags","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/Tags/","title":"Tags","pinned":true,"noteIcon":"1"}
 ---
 
 # Tags
