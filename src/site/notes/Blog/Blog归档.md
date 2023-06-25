@@ -7,6 +7,9 @@
 
 | File                                                        | Date       | UpdateDate | 大小/Byte |
 | ----------------------------------------------------------- | ---------- | ---------- | ------- |
+| [[Blog/开发程序/linux-privileges\|linux-privileges]]         | 2023-06-26 | 2023-06-26 | 11567   |
+| [[Blog/软件使用/docker-wsl2\|docker-wsl2]]                   | 2023-06-17 | 2023-06-26 | 4127    |
+| [[Blog/软件使用/vscode-php\|vscode-php]]                     | 2023-06-08 | 2023-06-11 | 384     |
 | [[Blog/开发程序/chatgpt_token_vercel\|chatgpt_token_vercel]] | 2023-06-05 | 2023-06-05 | 844     |
 | [[Blog/软件使用/server-update\|server-update]]               | 2023-05-29 | 2023-05-29 | 1797    |
 | [[Blog/软件使用/github-cli\|github-cli]]                     | 2023-05-28 | 2023-05-28 | 893     |
