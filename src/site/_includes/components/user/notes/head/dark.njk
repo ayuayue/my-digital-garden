@@ -1,49 +1,23 @@
-<!-- Darkmode Copyright 2021 YexuanXiao under MIT license -->
- <link rel="alternate stylesheet preload" as="style" href="darkmode.css" id="darkmode-css">
- <script>
-     // init darkmode
-     {
-         const darkmodeCss = document.getElementById('darkmode-css')
-         const media = window.matchMedia('(prefers-color-scheme: dark)')
-         const time = new Date().getHours()
-         if (media.matches || ((time > 20 || time < 6) && sessionStorage.getItem('darktheme') !== 'false')) {
-             darkmodeCss.rel = 'stylesheet'
-             sessionStorage.setItem('darktheme', 'true')
-         } else if (sessionStorage.getItem('darktheme') === 'true') {
-             darkmodeCss.rel = 'stylesheet'
-         } else {
-             sessionStorage.setItem('darktheme', 'false')
-         }
-         media.addEventListener('change', () => {
-             media.matches ? darkmodeCss.rel = 'stylesheet' : darkmodeCss.rel = 'alternate stylesheet'
-         })
-     }
- </script>
-
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
-// Darkmode Copyright 2021 YexuanXiao under MIT license
- // darkmode method
- function changeTheme() {
-     const darkmodeCss = document.getElementById('darkmode-css');
-     if (sessionStorage.getItem('darktheme') !== 'true') {
-         darkmodeCss.rel = 'stylesheet'
-         sessionStorage.setItem('darktheme', 'true')
-     } else {
-         darkmodeCss.rel = 'alternate stylesheet'
-         sessionStorage.setItem('darktheme', 'false')
-     }
- }
-    
- // initlize darkmode button
- {
-     const container = document.createElement('div');
-     const btn = document.createElement('input');
-     document.body.appendChild(container)
-     container.appendChild(btn)
-     btn.addEventListener('click', changeTheme)
-     btn.type = 'button'
-     btn.value = '🌓'
-     btn.style.cssText = 'background-color: transparent !important; border: none; font-size: 25px; z-index: 999; position: fixed; right: 10%; bottom: 10%'
- }
+  function addDarkmodeWidget() {
+    const options = {
+        bottom: '64px', // default: '32px'
+        right: 'unset', // default: '32px'
+        left: '32px', // default: 'unset'
+        time: '0.5s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: false, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true
+    }
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+
+  }
+  window.addEventListener('load', addDarkmodeWidget);
 </script>
- 
