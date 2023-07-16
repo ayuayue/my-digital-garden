@@ -1,8 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/docker-wsl2/","title":"windows下使用docker+wsl2开发","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/docker-wsl2/","title":"windows下使用docker+wsl2开发","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
 ---
 
+# 推荐阅读
 
+[Dev on Windows with WSL](https://dowww.spencerwoo.com/)
 # docker
 
 windows 的 docker 可以去官网下载，安装后重启即可。（不推荐，性能太差）
@@ -135,3 +137,14 @@ sudo apt install deepin-terminal
 ```
 
 ... 放弃，没有 dde 太丑了也
+
+## 内存占用过高问题
+
+
+```
+sudo su
+echo 3 > /proc/sys/vm/drop_caches
+echo 2 > /proc/sys/vm/drop_caches
+echo 1 > /proc/sys/vm/drop_caches
+sync
+```
