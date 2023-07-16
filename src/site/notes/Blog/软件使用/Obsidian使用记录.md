@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/Obsidian使用记录/","title":"Obsidian使用记录","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/Obsidian使用记录/","title":"Obsidian使用记录","noteIcon":"1","created":"2023-05-23T00:55:06+08:00","updated":""}
 ---
 
 
