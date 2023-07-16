@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/Navicat无限试用/","title":"Navicat无限试用","tags":["IT/Tools"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/Navicat无限试用/","title":"Navicat无限试用","tags":["IT/Tools"],"noteIcon":"1","created":"2022-10-03 20:44:46","updated":""}
 ---
 
 # Navicat无限试用
