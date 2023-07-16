@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/虚拟机VMWare/","title":"虚拟机VMWare","tags":["IT/VmWare"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/虚拟机VMWare/","title":"虚拟机VMWare","tags":["IT/VmWare"],"noteIcon":"1","created":"2022-10-03 20:51:46","updated":""}
 ---
 
 # 虚拟机VMWare
