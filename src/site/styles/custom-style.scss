@@ -11,4 +11,6 @@ body {
     //   color: black;
     //  }
 }
-
+code[class*=language-],pre[class*=language-] {
+    text-shadow: 0 0px rgba(0,0,0,.3);
+}
