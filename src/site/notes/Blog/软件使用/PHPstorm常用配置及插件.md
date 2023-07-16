@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/PHPstorm常用配置及插件/","title":"PHPstorm常用配置及插件","tags":["IT/PHPStorm"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/软件使用/PHPstorm常用配置及插件/","title":"PHPstorm常用配置及插件","tags":["IT/PHPStorm"],"noteIcon":"1","created":"2022-10-03 20:36:46","updated":""}
 ---
 
 # PHPstorm常用配置及插件
