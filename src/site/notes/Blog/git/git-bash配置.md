@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/git/git-bash配置/","title":"git-bash配置","tags":["IT/Bash","IT/Tools"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Blog/git/git-bash配置/","title":"git-bash配置","tags":["IT/Bash","IT/Tools"],"noteIcon":"1","created":"2022-10-03T20:47:46+08:00","updated":""}
 ---
 
 # git-bash配置
