@@ -5,6 +5,9 @@
 # Tags
 
 # 所有 Tags 
+- [[Blog/开发程序/java/springboot-start\|springboot-start]]: 
+    - #java
+
 - [[Blog/软件使用/虚拟机VMWare\|虚拟机VMWare]]: 
     - #IT/VmWare
     - #IT
@@ -15,10 +18,6 @@
 
 - [[Blog/软件使用/termux安卓\|termux安卓]]: 
     - #IT/termux
-    - #IT
-
-- [[Blog/软件使用/PHPstorm常用配置及插件\|PHPstorm常用配置及插件]]: 
-    - #IT/PHPStorm
     - #IT
 
 - [[Blog/git/GIT操作\|GIT操作]]: 
