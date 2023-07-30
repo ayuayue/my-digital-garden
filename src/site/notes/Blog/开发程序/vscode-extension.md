@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/vscode-extension/","tags":["Blog/vscode"],"noteIcon":"1","created":"2023-05-26T23:29:07+08:00","updated":""}
+tags: [Blog/vscode]
+title: 
+date: 2023-05-26T23:29:07+08:00
+lastmod: 2023-05-27T00:23:29+08:00
+dg-publish: true
 ---
-
 # 创建一个自己的 vscode 插件
 
 创建一个普通的 pack 类型的插件，包含了一些其他的插件。比如：
@@ -83,3 +86,27 @@ yo code
 
 ![../../Attachment/vscode-extension-20230527002305074.png](/img/user/Attachment/vscode-extension-20230527002305074.png)
 
+
+# 自己常用的插件
+
+chinese 
+Gitlens
+Wakatime
+Path Intellisense
+Emoji Log
+Error Lens
+Prettier
+Code Runner 
+WSL 
+SFTP
+vscode-toggle-case
+vscode-common-pack
+GitHub Copilot Chat
+Native Debug
+IntelliCode 
+Docker
+markdownlint
+better-comments
+MySQL
+dbclient-jdbc
+koroFileHeader
