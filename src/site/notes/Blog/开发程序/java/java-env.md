@@ -1,7 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/java/java-env/","title":"Java 开发环境","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+tags: []
+title: Java 开发环境
+date: 2023-05-28T13:40:53+08:00
+lastmod: 2023-05-28T13:40:59+08:00
+dg-publish: true
+dg-pinned: false
+dg-hide: false
+dg-hide-in-graph: false
 ---
-
 
 本文在 ChatGPT 协助下进行完成，如有错误请指正。
 
