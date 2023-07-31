@@ -1,12 +1,7 @@
 ---
-cssclass:
-title: 虚拟机VMWare
-tags: [IT/VmWare]
-image-auto-upload: true
-date: 2022-10-03 20:51:46
-lastmod: 2022-10-25 08:15:45
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/软件使用/虚拟机VMWare/","title":"虚拟机VMWare","tags":["IT/VmWare"],"noteIcon":"1","created":"2022-10-03 20:51:46","updated":""}
 ---
+
 # 虚拟机VMWare
 
 centos下载地址
