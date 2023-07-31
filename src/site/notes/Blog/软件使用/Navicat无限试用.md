@@ -1,12 +1,7 @@
 ---
-cssclass:
-title: Navicat无限试用
-tags: [IT/Tools]
-image-auto-upload: true
-date: 2022-10-03 20:44:46
-lastmod: 2022-10-25 08:20:50
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/软件使用/Navicat无限试用/","title":"Navicat无限试用","tags":["IT/Tools"],"noteIcon":"1","created":"2022-10-03 20:44:46","updated":""}
 ---
+
 # Navicat无限试用
 
 ### windows手动
@@ -29,12 +24,14 @@ dg-publish: true
 @echo off
 
 echo Delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration[version and language]
-for /f i /va /f
+for /f %%i in ('"REG QUERY "HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium" /s | findstr /L Registration"') do (
+    reg delete %%i /va /f
 )
 echo.
 
 echo Delete Info folder under HKEY_CURRENT_USER\Software\Classes\CLSID
-for /f i /va /f
+for /f %%i in ('"REG QUERY "HKEY_CURRENT_USER\Software\Classes\CLSID" /s | findstr /E Info"') do (
+    reg delete %%i /va /f
 )
 echo.
 
