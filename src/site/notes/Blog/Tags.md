@@ -1,11 +1,7 @@
 ---
-tags: []
-title: Tags
-date: 2023-06-05T23:24:36+08:00
-lastmod: 2023-06-05T23:24:40+08:00
-dg-publish: true
-dg-pinned: true
+{"dg-publish":true,"permalink":"/Blog/Tags/","title":"Tags","pinned":true,"noteIcon":"1","created":"2023-06-05T23:24:36+08:00","updated":""}
 ---
+
 # Tags
 
 # 所有 Tags 
@@ -41,11 +37,11 @@ dg-pinned: true
     - #Blog/vercel
     - #Blog
 
-- [[Blog/软件使用/vercel-cli\|vercel-cli]]: 
+- [[Blog/软件使用/vercel-cf\|vercel-cf]]: 
     - #Blog/vercel
     - #Blog
 
-- [[Blog/软件使用/vercel-cf\|vercel-cf]]: 
+- [[Blog/软件使用/vercel-cli\|vercel-cli]]: 
     - #Blog/vercel
     - #Blog
 
