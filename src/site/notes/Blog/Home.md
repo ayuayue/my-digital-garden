@@ -1,15 +1,7 @@
 ---
-aliases: 
-tags: []
-draft: false
-categories: []
-title: Home 
-date: 2023-05-19T20:48:59+08:00
-lastmod: 2023-05-19T20:49:03+08:00
-dg-publish: true
-dg-home: true
-dg-pinned: true
+{"dg-publish":true,"permalink":"/Blog/Home/","title":"Home","pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":"1","created":"2023-05-19T20:48:59+08:00","updated":""}
 ---
+
 
 # 我的博客🥰
 
