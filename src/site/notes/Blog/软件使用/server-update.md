@@ -1,13 +1,7 @@
 ---
-tags: []
-title: 服务升级优化
-date: 2023-05-28T13:40:53+08:00
-lastmod: 2023-05-28T13:40:59+08:00
-dg-publish: true
-dg-pinned: false
-dg-hide: false
-dg-hide-in-graph: false
+{"dg-publish":true,"permalink":"/Blog/软件使用/server-update/","title":"服务升级优化","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
 ---
+
 
 # 关于服务
 
