@@ -1,7 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/docker-wsl2/","title":"windows下使用docker+wsl2开发","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+tags: []
+title: windows下使用docker+wsl2开发
+date: 2023-05-28T13:40:53+08:00
+lastmod: 2023-05-28T13:40:59+08:00
+dg-publish: true
+dg-pinned: false
+dg-hide: false
+dg-hide-in-graph: false
 ---
-
 # 推荐阅读
 
 [Dev on Windows with WSL](https://dowww.spencerwoo.com/)
