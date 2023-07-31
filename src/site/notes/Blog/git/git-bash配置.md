@@ -1,7 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/git/git-bash配置/","title":"git-bash配置","tags":["IT/Bash","IT/Tools"],"noteIcon":"1","created":"2022-10-03T20:47:46+08:00","updated":""}
+dg-publish: true
+cssclass:
+title: git-bash配置
+tags: [IT/Bash, IT/Tools]
+image-auto-upload: true
+date: 2022-10-03T20:47:46+08:00
+lastmod: 2023-05-19T21:18:47+08:00
 ---
-
 # git-bash配置
 
 配置好 git-bash 后可以代替绝大多数时候开发的需求.不需要额外折腾 powershell 等工具.大道至简👀
