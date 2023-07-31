@@ -18,9 +18,175 @@
 1. 使用 SpringBoot 官方的 initializr [Spring Initializr](https://start.spring.io/)
 2. 使用 IDEA 的 new project，需要安装 Spring Initializr 插件。
 
-![](https://s3.caoayu.eu.org/2023/07/30/202307302348048.png)
+![_resources/springboot-start/e159be91eee0b9247cd3777e4e098dc8_MD5.png](/img/user/_resources/springboot-start/e159be91eee0b9247cd3777e4e098dc8_MD5.png)
 
-![](https://s3.caoayu.eu.org/2023/07/30/202307302350311.png)
+![_resources/springboot-start/3118d674ce1a1845bc25402b0802e58b_MD5.png](/img/user/_resources/springboot-start/3118d674ce1a1845bc25402b0802e58b_MD5.png)
 
 ## 启动项目及配置
+
+推荐使用 yaml 的方式配置应用，层级分明，数组、对象都支持。可以自动直接注入配置到一个配置类的属性上。
+
+### 应用所有的配置
+
+属性及说明 ：[Common Application Properties](https://docs.spring.io/spring-boot/docs/2.7.14/reference/html/application-properties.html#appendix.application-properties)
+
+![](https://s3.caoayu.eu.org/2023/07/31.png)
+
+### 添加监控 
+
+方便查看所有的方便查看所有的 bean，mappings 健康状况等。
+
+![](https://s3.caoayu.eu.org/2023/07/31.png)
+
+或者手动在 pom 文件里添加依赖
+
+
+```xml
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+```
+
+## 连接数据库
+
+### 添加依赖
+
+使用 mysql-connector-java ,mybatis plus 连接并操作数据库。
+
+```xml
+<dependency>  
+    <groupId>org.projectlombok</groupId>  
+    <artifactId>lombok</artifactId>  
+</dependency>  
+  
+<dependency>  
+    <groupId>com.baomidou</groupId>  
+    <artifactId>mybatis-plus-boot-starter</artifactId>  
+    <version>3.4.3.4</version>  
+</dependency>  
+<dependency>  
+    <groupId>mysql</groupId>  
+    <artifactId>mysql-connector-java</artifactId>  
+    <version>5.1.49</version>  
+</dependency>
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-devtools</artifactId>  
+</dependency>
+
+```
+
+### 配置数据库连接
+
+
+```yaml
+spring:  
+  datasource:  
+    driver-class-name: com.mysql.jdbc.Driver  
+    url: jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf-8&useSSL=false  
+    username: root  
+    password: root
+
+```
+
+### 连接及查询
+
+#### 首先生成 mapper，实体类。
+
+![](https://s3.caoayu.eu.org/2023/07/31.jpg)
+
+#### 编写 service 及实现
+
+service 接口
+
+```java
+package com.example.sbstart.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.sbstart.entity.User;
+
+public interface IUserService extends IService<User> {
+}
+
+```
+
+实现类
+
+```java
+package com.example.sbstart.service.impl;  
+  
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;  
+import com.example.sbstart.entity.User;  
+import com.example.sbstart.mapper.UserMapper;  
+import com.example.sbstart.service.IUserService;  
+import org.springframework.stereotype.Service;  
+  
+@Service  
+public class UserService extends ServiceImpl<UserMapper, User> implements IUserService {  
+  
+}
+```
+
+修改 Mapper ，继承 Mybatis 的 Mapper
+
+```java
+package com.example.sbstart.mapper;  
+  
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;  
+import com.example.sbstart.entity.User;  
+import org.apache.ibatis.annotations.Mapper;  
+  
+@Mapper  
+public interface UserMapper extends BaseMapper<User> {  
+    int deleteByPrimaryKey(Integer id);  
+  
+    int insert(User record);  
+  
+    int insertSelective(User record);  
+  
+    User selectByPrimaryKey(Integer id);  
+  
+    int updateByPrimaryKeySelective(User record);  
+  
+    int updateByPrimaryKey(User record);  
+}
+```
+
+#### 添加路由及 controller
+
+```java
+package com.example.sbstart.controller;  
+  
+import com.example.sbstart.entity.User;  
+import com.example.sbstart.service.impl.UserService;  
+import org.springframework.web.bind.annotation.GetMapping;  
+import org.springframework.web.bind.annotation.RequestMapping;  
+import org.springframework.web.bind.annotation.RestController;  
+  
+import javax.annotation.Resource;  
+import java.util.Collections;  
+import java.util.List;  
+  
+@RestController  
+@RequestMapping("/user")  
+public class UserController {  
+    @Resource  
+    UserService userService;  
+  
+    @GetMapping("/")  
+    public List<User> users() {  
+        List<User> users = userService.list();  
+        if (users == null || users.isEmpty()) {  
+            return Collections.emptyList();  
+        }  
+        return userService.list();  
+    }  
+}
+```
+
+访问 /users 可以看到所有的数据，没有数据为空数组。
+
+##  整合 Swagger-UI
 
