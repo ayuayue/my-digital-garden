@@ -8,6 +8,9 @@
 - [[Blog/开发程序/java/springboot-start\|springboot-start]]: 
     - #java
 
+- [[Blog/开发程序/java/java_env\|java_env]]: 
+    - #java
+
 - [[Blog/软件使用/虚拟机VMWare\|虚拟机VMWare]]: 
     - #IT/VmWare
     - #IT
@@ -28,6 +31,10 @@
     - #IT/Bash
     - #IT
     - #IT/Tools
+
+- [[Blog/开发程序/java/idea_config\|idea_config]]: 
+    - #idea
+    - #java
 
 - [[Blog/开发程序/vscode-extension\|vscode-extension]]: 
     - #Blog/vscode
