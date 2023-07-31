@@ -1,10 +1,7 @@
 ---
-tags: [Blog/vscode]
-title: 
-date: 2023-05-26T23:29:07+08:00
-lastmod: 2023-05-27T00:23:29+08:00
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/开发程序/vscode-extension/","tags":["Blog/vscode"],"noteIcon":"1","created":"2023-05-26T23:29:07+08:00","updated":""}
 ---
+
 # 创建一个自己的 vscode 插件
 
 创建一个普通的 pack 类型的插件，包含了一些其他的插件。比如：
