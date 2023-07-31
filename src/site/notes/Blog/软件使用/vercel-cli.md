@@ -1,10 +1,7 @@
 ---
-tags: [Blog/vercel]
-title: Vercel-CLI 使用
-date: 2023-05-28T10:23:30+08:00
-lastmod: 2023-05-28T10:23:36+08:00
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cli/","title":"Vercel-CLI 使用","tags":["Blog/vercel"],"noteIcon":"1","created":"2023-05-28T10:23:30+08:00","updated":""}
 ---
+
 
 # Vercel-cli 
 
