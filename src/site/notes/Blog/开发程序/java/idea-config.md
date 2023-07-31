@@ -7,26 +7,26 @@
 
 开启自动构建及编译
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310016059.png)
+![_resources/idea-config/384c615ea3fabcbd8f0c93c2e54040f5_MD5.png](/img/user/_resources/idea-config/384c615ea3fabcbd8f0c93c2e54040f5_MD5.png)
 
 Jrebel 配置自动热加载，首先注册安装 Jrebel，并激活。
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310059325.png)
+![_resources/idea-config/37ba5c281461a360e3fd34f7bee737f8_MD5.png](/img/user/_resources/idea-config/37ba5c281461a360e3fd34f7bee737f8_MD5.png)
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310100994.png)
+![_resources/idea-config/aaed0bc69af3a313cd58001a7ea0ff17_MD5.png](/img/user/_resources/idea-config/aaed0bc69af3a313cd58001a7ea0ff17_MD5.png)
 
 启动后，会有一个刷新的按钮，点击后不需要重新运行就可以看到更新代码后的更改。
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310101467.png)
+![_resources/idea-config/0bbd0b3a0b2f4dc4ca9796a4446f60f7_MD5.png](/img/user/_resources/idea-config/0bbd0b3a0b2f4dc4ca9796a4446f60f7_MD5.png)
 
 
 文件编码
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310015548.png)
+![_resources/idea-config/3ebac20da1ee1edfecfaabd8101a9863_MD5.png](/img/user/_resources/idea-config/3ebac20da1ee1edfecfaabd8101a9863_MD5.png)
 
 菜单栏增加按钮，新 UI 可能有些按钮跟旧 UI 不一致，如果需要显示可以自己自定义添加。如增加一个显示 git stash 的按钮。
 
-![](https://s3.caoayu.eu.org/2023/07/31/202307310021795.png)
+![_resources/idea-config/7d57182b1c45741e93816569e21656e3_MD5.png](/img/user/_resources/idea-config/7d57182b1c45741e93816569e21656e3_MD5.png)
 
 
 # 插件
@@ -38,5 +38,6 @@ Jrebel 配置自动热加载，首先注册安装 Jrebel，并激活。
 5. MybatisX：与 MybatisCodeHelperPro 冲突
 6. MybatisCodeHelperPro
 7. String Mainpulation：各自变量命名风格
-8. RestfulToolKit-fix：自动生成 springboot 访问路由地址并可以模拟请求，类似 apifox
+8. RestfulTool：自动生成 springboot 访问路由地址并可以模拟请求，类似 apifox
 9. jrebel：热加载工具，可以注册免费试用 14 天，可以一直换临时邮箱注册
+10. Auto filling Java call arguments：补全参数
