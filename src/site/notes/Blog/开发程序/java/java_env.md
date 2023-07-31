@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/java/java_env/","title":"Java 开发环境","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+{"dg-publish":true,"permalink":"/Blog/开发程序/java/java_env/","title":"Java 开发环境","tags":["java"],"noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
 ---
 
 
