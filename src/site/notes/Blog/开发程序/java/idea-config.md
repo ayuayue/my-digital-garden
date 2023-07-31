@@ -1,7 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/java/idea-config/","title":"IDEA 配置","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+tags: []
+title: IDEA 配置
+date: 2023-05-28T13:40:53+08:00
+lastmod: 2023-05-28T13:40:59+08:00
+dg-publish: true
+dg-pinned: false
+dg-hide: false
+dg-hide-in-graph: false
 ---
-
 
 # 配置
 
