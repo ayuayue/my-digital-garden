@@ -219,3 +219,5 @@ spring:
 如果还报错，那就检查下是否引入了 spring-boot-starter-actuator 这个依赖，目前测试引入这个也会报错，把这个去掉就能正常启动了。
 
 访问 `localhost:8080/doc.html` 就可以看到在线文档了
+
+![](https://s3.caoayu.eu.org/2023/07/31/202307312357271.png)
