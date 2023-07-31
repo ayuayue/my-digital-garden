@@ -1,13 +1,7 @@
 ---
-tags: [java]
-title: SpringBoot-项目创建及配置
-date: 2023-05-28T13:40:53+08:00
-lastmod: 2023-05-28T13:40:59+08:00
-dg-publish: true
-dg-pinned: false
-dg-hide: false
-dg-hide-in-graph: false
+{"dg-publish":true,"permalink":"/Blog/开发程序/java/springboot-start/","title":"SpringBoot-项目创建及配置","tags":["java"],"noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
 ---
+
 
 本文在 ChatGPT 协助下进行完成，如有错误请指正。
 
@@ -17,7 +11,7 @@ dg-hide-in-graph: false
 
 2.7.14 版本文档：[Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/2.7.14/reference/html/)
 
-开发环境  JDK 及 Maven 请见：  [[Blog/开发程序/java/java-env\|java-env]]
+开发环境  JDK 及 Maven 请见：  [[Blog/开发程序/java/java_env\|java_env]]
 
 ## 新建项目
 
@@ -196,3 +190,32 @@ public class UserController {
 
 ##  整合 Swagger-UI
 
+参考链接： https://springboot.io/t/topic/4613
+
+国际惯例先引入依赖
+
+```xml
+<dependency>
+	<groupId>com.github.xiaoymin</groupId>
+	<artifactId>knife4j-spring-boot-starter</artifactId>
+	<version>3.0.3</version>
+</dependency>
+
+```
+
+如果 springboot 版本大于 2.6，那么可能启动会提示  **Failed to start bean ‘documentationPluginsBootstrapper’; nested exception is java.lang.NullPointerException** 
+
+由于 Springfox 使用的路径匹配是基于 AntPathMatcher，而 Spring Boot 2.6.X 使用的是 PathPatternMatcher，所以将 MVC 的路径匹配规则改成 AntPathMatcher，在配置文件中加入如下参数即可（如果没有报错，可以跳过这个环节）
+
+```yaml
+spring:
+  mvc:
+    pathmatch:
+      # Springfox使用的路径匹配是基于AntPathMatcher的，而Spring Boot 2.6.X使用的是PathPatternMatcher
+      # 所以需要配置此参数
+      matching-strategy: ant_path_matcher
+```
+
+如果还报错，那就检查下是否引入了 spring-boot-starter-actuator 这个依赖，目前测试引入这个也会报错，把这个去掉就能正常启动了。
+
+访问 `localhost:8080/doc.html` 就可以看到在线文档了
