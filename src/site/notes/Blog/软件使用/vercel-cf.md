@@ -1,10 +1,7 @@
 ---
-tags: [Blog/vercel]
-title: 使用 vercel + cloudflare 管理域名
-date: 2023-05-27T12:17:17+08:00
-lastmod: 2023-05-27T12:17:25+08:00
-dg-publish: true
+{"dg-publish":true,"permalink":"/Blog/软件使用/vercel-cf/","title":"使用 vercel + cloudflare 管理域名","tags":["Blog/vercel"],"noteIcon":"1","created":"2023-05-27T12:17:17+08:00","updated":""}
 ---
+
 
 ## 首先注册 vercel 跟 cloudflare
 
