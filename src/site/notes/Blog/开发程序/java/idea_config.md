@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/java/idea_config/","title":"IDEA 配置","noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+{"dg-publish":true,"permalink":"/Blog/开发程序/java/idea_config/","title":"IDEA 配置","tags":["idea","java"],"noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
 ---
 
 
