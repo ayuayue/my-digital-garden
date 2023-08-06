@@ -11,6 +11,9 @@
 - [[Blog/开发程序/java/springboot_start\|springboot_start]]: 
     - #java
 
+- [[Blog/开发程序/java/java-logback\|java-logback]]: 
+    - #java
+
 - [[Blog/软件使用/虚拟机VMWare\|虚拟机VMWare]]: 
     - #IT/VmWare
     - #IT
@@ -44,11 +47,11 @@
     - #Blog/vercel
     - #Blog
 
-- [[Blog/软件使用/vercel-cf\|vercel-cf]]: 
+- [[Blog/软件使用/vercel-cli\|vercel-cli]]: 
     - #Blog/vercel
     - #Blog
 
-- [[Blog/软件使用/vercel-cli\|vercel-cli]]: 
+- [[Blog/软件使用/vercel-cf\|vercel-cf]]: 
     - #Blog/vercel
     - #Blog
 
