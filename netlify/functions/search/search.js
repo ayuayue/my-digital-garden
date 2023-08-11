@@ -2,7 +2,7 @@ const lunrjs = require("lunr");
 
 const handler = async (event) => {
   try {
-    const search = event.queryStringParameters.term;
+    const search = decodeURIComponent(event.queryStringParameters.term);
     if (!search) throw "Missing term query parameter";
 
     const data = require("./data.json");
