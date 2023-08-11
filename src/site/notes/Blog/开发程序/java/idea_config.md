@@ -36,8 +36,12 @@ Jrebel 配置自动热加载，首先注册安装 Jrebel，并激活。
 3. JavaBean to Json：java bean 转成 json 
 4. maven-search：maven 仓库搜索并生成依赖
 5. MybatisX：与 MybatisCodeHelperPro 冲突
-6. MybatisCodeHelperPro
+6. MybatisCodeHelperPro：自动生成实体、控制器、mapper 等代码
 7. String Mainpulation：各自变量命名风格
 8. RestfulTool：自动生成 springboot 访问路由地址并可以模拟请求，类似 apifox
 9. jrebel：热加载工具，可以注册免费试用 14 天，可以一直换临时邮箱注册
-10. Auto filling Java call arguments：补全参数
+10. Auto filling Java call arguments：补全方法全部参数
+11. Conver yaml and properties file：把 yaml properties 配置文件相互转换
+12. Maven helper：查看 pom 依赖是否冲突，以及依赖树。
+13. Nyan progress bar：一个有趣的进度条。
+14. Visualgc：可视化查看 gc
