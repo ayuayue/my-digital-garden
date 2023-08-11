@@ -4,7 +4,7 @@ const handler = async (event) => {
   try {
     const search = decodeURIComponent(event.queryStringParameters.term);
     if (!search) throw "Missing term query parameter";
-
+    console.log("searching for 1", search);
     const data = require("./data.json");
     const indexJson = require("./index.json");
     const index = lunrjs.Index.load(indexJson);
