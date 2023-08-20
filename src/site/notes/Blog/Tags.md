@@ -5,13 +5,16 @@
 # Tags
 
 # 所有 Tags 
+- [[Blog/软件使用/wsl2安装配置\|wsl2安装配置]]: 
+    - #wsl
+
 - [[Blog/开发程序/java/java-logback\|java-logback]]: 
     - #java
 
-- [[Blog/开发程序/java/springboot_start\|springboot_start]]: 
+- [[Blog/开发程序/java/java_env\|java_env]]: 
     - #java
 
-- [[Blog/开发程序/java/java_env\|java_env]]: 
+- [[Blog/开发程序/java/springboot_start\|springboot_start]]: 
     - #java
 
 - [[Blog/软件使用/虚拟机VMWare\|虚拟机VMWare]]: 
