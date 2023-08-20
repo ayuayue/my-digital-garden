@@ -5,9 +5,6 @@
 # Tags
 
 # 所有 Tags 
-- [[Blog/软件使用/wsl2安装配置\|wsl2安装配置]]: 
-    - #wsl
-
 - [[Blog/开发程序/java/java-logback\|java-logback]]: 
     - #java
 
