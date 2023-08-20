@@ -148,3 +148,52 @@ echo 2 > /proc/sys/vm/drop_caches
 echo 1 > /proc/sys/vm/drop_caches
 sync
 ```
+
+## 常用命令
+
+```bash
+sudo apt-get update  更新源
+sudo apt-get install package 安装包
+sudo apt-get remove package 删除包
+sudo apt-cache search package 搜索软件包
+sudo apt-cache show package  获取包的相关信息，如说明、大小、版本等
+sudo apt-get install package --reinstall  重新安装包
+sudo apt-get -f install  修复安装
+sudo apt-get remove package --purge 删除包，包括配置文件等
+sudo apt-get build-dep package 安装相关的编译环境
+sudo apt-get upgrade 更新已安装的包
+sudo apt-get dist-upgrade 升级系统
+sudo apt-cache depends package 了解使用该包依赖那些包
+sudo apt-cache rdepends package 查看该包被哪些包依赖
+sudo apt-get source package  下载该包的源代码
+sudo apt-get clean && sudo apt-get autoclean 清理无用的包
+sudo apt-get check 检查是否有损坏的依赖
+
+```
+## 安装常用软件
+
+```Bash
+sudo apt install -y gcc g++ vim lsof gdb autoconf automake  neofetch w3m net-tools git wget ca-certificates make zsh w3m
+
+```
+## ssh 配置远程连接
+
+```bash
+sudo apt-get purge openssh-server -y
+sudo apt-get install openssh-server -y
+sudo ssh-keygen -A
+```
+
+修改 `sudo vi /etc/ssh/sshd_config`
+
+```conf
+Port 222
+ListenAddress 0.0.0.0
+PermitRootLogin yes
+PasswordAuthentication yes
+
+```
+
+`sudo service ssh restart`
+
+Windows 宿主机使用 `ssh user@localhost -p 222` 即可登录连接
