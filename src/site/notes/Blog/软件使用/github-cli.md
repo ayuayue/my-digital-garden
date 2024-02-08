@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/github-cli/","title":"Github-CLI使用","noteIcon":"1","created":"2023-05-28T10:15:21+08:00","updated":""}
+tags: []
+title: Github-CLI使用
+date: 2023-05-28T10:15:21+08:00
+lastmod: 2023-05-28T10:15:34+08:00
+dg-publish: true
 ---
-
 
 # GITHUB_CLI
 
