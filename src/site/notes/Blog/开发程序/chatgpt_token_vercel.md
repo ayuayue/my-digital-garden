@@ -1,7 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/chatgpt_token_vercel/","title":"使用 vercel serverless 部署 chatgpt 认证接口","tags":["Blog/vercel"],"noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+tags: [Blog/vercel]
+alias: 使用 vercel serverless 部署 chatgpt 认证接口
+title: 使用 vercel serverless 部署 chatgpt 认证接口
+date: 2023-05-28T13:40:53+08:00
+lastmod: 2023-05-28T13:40:59+08:00
+dg-publish: true
+dg-pinned: false
+dg-hide: false
+dg-hide-in-graph: false
 ---
-
 
 # 仓库地址 
 
