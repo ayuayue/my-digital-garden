@@ -1,7 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/termux安卓/","title":"termux安卓","tags":["IT/termux"],"noteIcon":"1","created":"2022-10-04 21:10:22","updated":""}
----
+title: termux安卓
+tags: [IT/termux]
+cssclass:
+image-auto-upload: true
 
+date: 2022-10-04 21:10:22
+lastmod: 2022-10-25 08:33:54
+dg-publish: true
+---
 # termux安卓
 ## Termux
 
