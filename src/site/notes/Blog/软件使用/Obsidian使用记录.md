@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/软件使用/Obsidian使用记录/","title":"Obsidian使用记录","noteIcon":"1","created":"2023-05-23T00:55:06+08:00","updated":""}
+tags: []
+title: Obsidian使用记录
+date: 2023-05-23T00:55:06+08:00
+lastmod: 2023-05-23T00:55:17+08:00
+dg-publish: true
 ---
-
 
 # 表格
 
