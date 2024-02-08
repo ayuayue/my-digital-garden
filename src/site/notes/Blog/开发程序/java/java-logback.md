@@ -1,7 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/开发程序/java/java-logback/","title":"Spring Boot 整合 Logback","tags":["java"],"noteIcon":"1","created":"2023-05-28T13:40:53+08:00","updated":""}
+tags: [java]
+title: Spring Boot 整合 Logback
+date: 2023-05-28T13:40:53+08:00
+lastmod: 2023-05-28T13:40:59+08:00
+dg-publish: true
+dg-pinned: false
+dg-hide: false
+dg-hide-in-graph: false
 ---
-
 
 # Logback 
 
