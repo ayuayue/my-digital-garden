@@ -1,7 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/Blog/Tags/","title":"Tags","pinned":true,"noteIcon":"1","created":"2023-06-05T23:24:36+08:00","updated":""}
+tags: []
+title: Tags
+date: 2023-06-05T23:24:36+08:00
+lastmod: 2023-06-05T23:24:40+08:00
+dg-publish: true
+dg-pinned: true
 ---
-
 # Tags
 
 # 所有 Tags 
@@ -24,6 +28,10 @@
 
 - [[Blog/软件使用/termux安卓\|termux安卓]]: 
     - #IT/termux
+    - #IT
+
+- [[Blog/软件使用/Multipass\|Multipass]]: 
+    - #IT/Linux
     - #IT
 
 - [[Blog/git/GIT操作\|GIT操作]]: 
